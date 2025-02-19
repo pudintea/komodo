@@ -13,7 +13,7 @@ wget -P komodo https://raw.githubusercontent.com/moghtech/komodo/main/compose/mo
 Jalankan :
 > docker compose -p komodo -f mongo.compose.yaml --env-file compose.env up -d
 
-
+Periphery Komputer yang mau di remote
 Untuk Install Node Server :
 > curl -sSL https://raw.githubusercontent.com/moghtech/komodo/main/scripts/setup-periphery.py | sudo python3
 
