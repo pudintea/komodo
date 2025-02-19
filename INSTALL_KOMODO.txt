@@ -8,6 +8,8 @@ Download docker-compose & env. Edit sesuaikan dengan kebutuhan:
 wget -P komodo https://raw.githubusercontent.com/moghtech/komodo/main/compose/mongo.compose.yaml && \
   wget -P komodo https://raw.githubusercontent.com/moghtech/komodo/main/compose/compose.env
 
+> nano komodo/compose.env
+
 Jalankan :
 > docker compose -p komodo -f mongo.compose.yaml --env-file compose.env up -d
 
